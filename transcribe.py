@@ -17,8 +17,8 @@ audio_queue = queue.Queue()
 audio_buffer = []
 
 # Model setup: medium.en + float16 (optimized for 3080)
-model = WhisperModel("medium.en", device="cuda", compute_type="float32")  # use model size "medium.en" for faster results but slightly lower accuracy
-# model = WhisperModel("medium.en", device="cpu", compute_type="int8")  # use model size "medium.en" for faster results but slightly lower accuracy
+# model = WhisperModel("medium.en", device="cuda", compute_type="float32")  # use model size "medium.en" for faster results but slightly lower accuracy
+model = WhisperModel("medium.en", device="cpu", compute_type="int8")  # use model size "medium.en" for faster results but slightly lower accuracy
 
 
 def audio_callback(indata, frames, time, status):

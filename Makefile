@@ -57,7 +57,6 @@ clean:
 run:
 	@echo "Running application..."
 	$(PYTHON_VENV) transcribe.py
-
 # Run tests
 test:
 	@echo "Running tests..."

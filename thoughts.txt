@@ -1,0 +1,3 @@
+1. instead of hundred -> 100 Rs ? => for UI
+2. performance analysis and choosing best settings
+3. For batch / multiple users processing optimisations later.

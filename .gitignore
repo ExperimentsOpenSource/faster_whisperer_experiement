@@ -1,0 +1,23 @@
+# virtual environment
+.venv/
+venv/
+
+# python cache
+__pycache__/
+
+# python build
+build/
+
+# python dist
+dist/
+
+
+*.egg-info
+
+# python wheel
+*.whl
+
+# python egg
+*.egg
+
+# python tar.gz

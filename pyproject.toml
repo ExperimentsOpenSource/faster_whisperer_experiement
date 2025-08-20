@@ -1,0 +1,9 @@
+[project]
+name = "faster-whisper-experiement"
+version = "0.1.0"
+description = "A project using sounddevice, numpy, queue, threading, and faster-whisper"
+dependencies = [
+  "sounddevice",
+  "numpy",
+  "faster-whisper"
+]
